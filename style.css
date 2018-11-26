@@ -1,0 +1,383 @@
+            [class*="col-"] {
+            float: left;
+            }
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+            
+
+            @media only screen and (max-width:1000px) {
+            /* For tablets: */
+            .col-2 {width: 29%;}
+            .col-3 {width: 50%;}
+            .col-9 {width: 50%;}
+            }
+
+            @media only screen and (max-width:800px) {
+            /* For tablets: */
+            .col-2 {width: 29%;}
+
+            }
+
+            @media only screen and (max-width:500px) {
+            /* For mobile phones: */
+            .col-2 {width: 100%;}
+            .col-3 {width: 100%;}
+            .col-5 {width: 100%;}
+            .col-7 {width: 100%;}
+            }
+            html, body {
+                height: 100%;
+                margin: 0;
+                background-image: url("https://i.imgur.com/i9jWUUc.jpg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .heading{
+                color: white;
+                text-align: center;
+                font-size: 2rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+            .judul{
+                color: white;
+                text-align: center;
+                font-size: 1rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+            .border {
+                text-align: center;
+                text-decoration: none;
+                margin-top: 240px;
+                margin-left: -330px;
+                width: 90px;
+                padding: 2px 2px 2px 2px;
+                border: 2px solid white;
+                color : white;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                display: block
+                }
+            .tulisan{
+                color: white;
+                position: absolute;
+                margin-top: 600px;
+                margin-left: 550px;
+            }
+            .head nav {
+                background: rgba(0, 0, 0, 0.7);
+                overflow:auto;
+                text-align: center;
+            }
+            .head nav ul {
+                padding:0 ;
+                margin: auto;
+                list-style:none;
+                text-align: center;
+            }
+            .head nav ul li{
+            display: inline-block;
+            padding: 5px;
+            text-align: center;
+            }
+            .head nav ul li a {
+                width:130px;
+                display: block;
+                text-decoration: none;
+                font-family: 'Oswald', sans-serif;
+                color:#f2f2f2;
+                text-align: center;
+                font-size: 1rem;
+                float: left;
+            }
+            
+            .head nav ul li a:hover {
+                color: white;
+                text-decoration: underline;
+                background:gray;
+                transition:0.5s;
+                text-transform:none;
+            }
+            .body a {
+                color: black;
+            }
+            
+            .body a:hover {
+                color: rgba();
+            }
+            .body h2 {
+                text-align: center;
+            }
+            .body .info h4 {
+                text-align: left;
+            }
+            .body .info h3 {
+                color: black;
+            }
+            .footer {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.7);
+                text-align: center;
+            }
+            .footer img {
+                width: 40px;
+                height: auto;
+            }
+            .footer h4 {
+                margin: 0;
+                vertical-align: middle;
+                position: relative;
+                color: white;
+                text-align: center;
+            }
+            .heading1{
+                color: white;
+                position: absolute;
+                top: 19%;
+                text-decoration-line: underline;
+                text-align: center;
+                font-size: 2rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+                .heading4{
+                    color: white;
+                    position: absolute;
+                    top: 15%;
+                    text-decoration-line: underline;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    text-shadow: 5px 5px 10px #000000;
+                    font-family: 'Mali', cursive;
+                    }
+                .heading2{
+                color: white;
+                position: absolute;
+                top: 30%;
+                text-align: center;
+                font-size: 1rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+                .heading3{
+                color: white;
+                position: absolute;
+                top: 80%;
+                text-align: center;
+                font-size: 1rem;
+                text-shadow: 5px 5px 10px #000000;
+                font-family: 'Mali', cursive;
+                }
+                .heading5{
+                    color: white;
+                    position: absolute;
+                    top: 83%;
+                    text-align: center;
+                    font-size: 1rem;
+                    text-shadow: 5px 5px 10px #000000;
+                    font-family: 'Mali', cursive;
+                    }
+                    .heading6{
+                        color: white;
+                        position: absolute;
+                        top: 17%;
+                        text-align: center;
+                        font-size: 1rem;
+                        text-shadow: 5px 5px 10px #000000;
+                        font-family: 'Mali', cursive;
+                        }
+                        .heading7{
+                            color: white;
+                            position: absolute;
+                            top: 30%;
+                            text-align: center;
+                            font-size: 1rem;
+                            text-shadow: 5px 5px 10px #000000;
+                            font-family: 'Mali', cursive;
+                            }
+                .button {
+                    position: absolute;
+                    top: 90%;
+                    margin-left: 48%;
+                }
+                .button2 {
+                    position: absolute;
+                    top: 93.5%;
+                    margin-left: 48%;
+                }
+                .button3 {
+                    position: absolute;
+                    top: 50%;
+                    margin-left: 48%;
+                }
+                #tabelinput {
+                    font-size: auto;
+                    position: absolute;
+                    margin-top: 550px;
+                }
+                .formalamat {
+                    text-align: center;
+                    padding: 10px;
+                    width: 100px;
+                    margin-top: 30px;
+                    margin-left: -10px;
+                }
+                .kotakPencarian{
+                    text-align: left;
+                    padding: 10px;
+                    width: 200px;
+                    height: 300px;
+                    margin-top: 125px;
+                    margin-left: 850px;
+                    position: absolute;
+                    }
+                    
+                    .kotakGabut{
+                    border: 2px solid rgb(255, 255, 255);
+                    padding: 30px;
+                    width: 712px;
+                    height: 380px;
+                    margin-top: 158px;
+                    margin-left: 300px;
+                    position: absolute
+                    }
+                    
+                    .kotakPengumuman1{
+                    background-color: grey;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 25px;
+                    width: 680px;
+                    border: 8px solid rgb(255, 255, 255);
+                    padding: 30px;
+                    margin-top: 190px;
+                    margin-left: 310px;
+                    position: absolute
+                    }
+                    .tanggalPengumuman1{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 173px;
+                    margin-left: 23px;
+                    position: absolute
+                    }
+                    .klik1{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 230px;
+                    margin-left: 590px;
+                    position: absolute
+                    }
+                    .kotakPengumuman2{
+                    background-color: grey;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 25px;
+                    width: 680px;
+                    border: 8px solid rgb(255, 255, 255);
+                    padding: 30px;
+                    margin-top: 300px;
+                    margin-left: 310px;
+                    position: absolute
+                    }
+                    .tanggalPengumuman2{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 283px;
+                    margin-left: 23px;
+                    position: absolute
+                    }
+                    .klik2{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 340px;
+                    margin-left: 590px;
+                    position: absolute
+                    }
+                    .kotakPengumuman3{
+                    background-color: grey;
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 25px;
+                    width: 680px;
+                    border: 8px solid rgb(255, 255, 255);
+                    padding: 30px;
+                    margin-top: 410px;
+                    margin-left: 310px;
+                    position: absolute
+                    }
+                    .tanggalPengumuman3{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 393px;
+                    margin-left: 23px;
+                    position: absolute
+                    }
+                    .klik3{
+                    text-align: center;
+                    font-family: 'Franklin Gothic Medium';
+                    font-size: 19px;
+                    width: 680px;
+                    padding: 30px;
+                    margin-top: 450px;
+                    margin-left: 590px;
+                    position: absolute
+                    }
+                    .tbl{
+                    margin-left: 30%;
+                    margin-right: 30%;
+                    padding-top: 10%;
+                    
+
+                    }
+                    form{
+                        font-size: 20px;  
+                        
+                    }
+                    .tbll{
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 3px 3px;
+
+
+
+                    }
+                    .tblll{
+                        margin-left: 9%;
+                        width: 90.5%;
+                    }
+                
+    
